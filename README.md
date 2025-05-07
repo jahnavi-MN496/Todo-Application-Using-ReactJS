@@ -4,27 +4,42 @@ Project Structure -
 
 learning-react/
 │
+
 ├── public/
 
 │   └── index.html
 
 ├── src/
+
 │   ├── App.jsx
+
 │   ├── App.css
+
 │   ├── index.jsx
+
 │   ├── index.css
+
 │   └── components/
+
 │       └── [YourComponentFiles].jsx
+
 ├── package.json
+
 ├── vite.config.js
+
 └── README.md
+
 
 Features
 
 Responsive layout with 
+
 -Elegant UI with gradient backgrounds and soft shadows
+
 -Mobile-friendly: Adapts smoothly to tablets and phones
+
 -Built using React + Vite
+
 -Clean and modular code structure for scalability
 
 
@@ -32,8 +47,8 @@ Getting Started
 
 1. Clone the repository:
 
-
 git clone https://github.com/your-username/learning-react.git
+
 cd learning-react
 
 2. Install dependencies:
