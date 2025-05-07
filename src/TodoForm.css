@@ -1,0 +1,88 @@
+/* Apply a pastel background color for the whole form */
+form {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+form:hover {
+    transform: scale(1.03);
+}
+
+/* Style the input fields */
+input[type="text"], select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #f1c6c6;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Change border color on focus */
+input[type="text"]:focus, select:focus {
+    border-color: #ff62a1;
+}
+
+/* Style the placeholder text */
+input::placeholder {
+    color: #ff62a1;
+    font-style: italic;
+}
+
+/* Style the button */
+button[type="submit"] {
+    background-color: #ff62a1;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #f96170;
+}
+
+/* Add a nice little hover effect for input fields */
+input[type="text"], select {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Add space between form elements */
+form > * {
+    margin-bottom: 10px;
+}
+
+/* Style the headings */
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #f39acb;
+    text-align: center;
+}
+
+/* Add some subtle animation for the whole form */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+form {
+    animation: fadeIn 1s ease-out;
+}

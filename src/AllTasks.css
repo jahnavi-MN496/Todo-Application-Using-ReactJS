@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap');
+
+body {
+    background: linear-gradient(135deg, #ffe6f7, #e0f7fa);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.todo-table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(255, 192, 203, 0.4);
+    background-color: #fff0f6;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.todo-table th,
+.todo-table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ffccf9;
+}
+
+.todo-table th {
+    background: linear-gradient(to right, #ffb3ff, #ccffff);
+    color: #4b0082;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.todo-table tr:nth-child(even) {
+    background-color: #fffaff;
+}
+
+.todo-table tr:hover {
+    background-color: #ffe6ff;
+    transition: background-color 0.3s ease;
+}
+
+.todo-table button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff99cc, #ccffff);
+    color: #4b0082;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.todo-table button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ff66b2, #b3ffff);
+}
+
+.no-todos {
+    text-align: center;
+    font-size: 20px;
+    color: #cc3399;
+    margin-top: 40px;
+    font-family: 'Pacifico', cursive;
+    animation: float 2s ease-in-out infinite;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+.no-tasks {
+    text-align: center;
+    color: #ba68c8;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: italic;
+    background-color: #fff0f6;
+    padding: 10px 20px;
+    border-radius: 12px;
+    width: fit-content;
+    margin: 0 auto;
+}
