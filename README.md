@@ -3,7 +3,6 @@ This project is a responsive to-do application layout built as part of a React l
 Project Structure - 
 
 learning-react/
-│
 
 ├── public/
 
@@ -11,23 +10,23 @@ learning-react/
 
 ├── src/
 
-│   ├── App.jsx
+   ├── App.jsx
 
-│   ├── App.css
+   ├── App.css
 
-│   ├── index.jsx
+   ├── index.jsx
 
-│   ├── index.css
+   ├── index.css
 
-│   └── components/
+   └── components/
 
-│       └── [YourComponentFiles].jsx
+       └── [YourComponentFiles].jsx
 
 ├── package.json
 
 ├── vite.config.js
 
-└── README.md
+|── README.md
 
 
 Features
