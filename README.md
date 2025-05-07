@@ -5,7 +5,9 @@ Project Structure -
 learning-react/
 │
 ├── public/
+
 │   └── index.html
+
 ├── src/
 │   ├── App.jsx
 │   ├── App.css
