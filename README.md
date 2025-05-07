@@ -1,12 +1,46 @@
-# React + Vite
+This project is a responsive to-do application layout built as part of a React learning journey. It features a modern, mobile-friendly UI using HTML and CSS Flexbox, with structured panels and component-based design.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Structure - 
 
-Currently, two official plugins are available:
+learning-react/
+│
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.jsx
+│   ├── index.css
+│   └── components/
+│       └── [YourComponentFiles].jsx
+├── package.json
+├── vite.config.js
+└── README.md
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
 
-## Expanding the ESLint configuration
+Responsive layout with 
+-Elegant UI with gradient backgrounds and soft shadows
+-Mobile-friendly: Adapts smoothly to tablets and phones
+-Built using React + Vite
+-Clean and modular code structure for scalability
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Getting Started
+
+1. Clone the repository:
+
+
+git clone https://github.com/your-username/learning-react.git
+cd learning-react
+
+2. Install dependencies:
+
+npm install
+
+3. Run the development server:
+
+npm run dev
+
+Then open your browser at `http://localhost:5173`
+
